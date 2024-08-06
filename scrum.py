@@ -1,4 +1,3 @@
-
 import random
 
 def adivina_el_numero():
@@ -14,4 +13,10 @@ else:
     break
     except ValueError:
     print("Por favor, ingresa un numero valido.")
+
+
+if __name__=="__main__":
+    
+    adivina_el_numero()
+    
 
