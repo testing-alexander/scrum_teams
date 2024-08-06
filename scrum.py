@@ -1,3 +1,4 @@
+
 import random
 
 def adivina_el_numero():
@@ -9,5 +10,8 @@ if adivinanza < numero_secreto:
 elif adivinanza > numero_secreto:
     print("Demasiado alto. Intente de nuevo.")
 else:
-
+    print(f"¡¡Felicidades!! Adivinaste el numero en {intentos} intentos.")
+    break
+    except ValueError:
+    print("Por favor, ingresa un numero valido.")
 
